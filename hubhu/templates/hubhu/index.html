@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HubHu</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <div class = "head_nav_container">
+        <a href="{% url 'index' %}" class="site_logo">
+            <h1>
+                HubHu
+            </h1>
+        </a>
+        <nav class = "head_nav">
+            <a href="#">Download</a>
+            <a href="#">Discover</a>
+            <a href="#">About</a>
+        </nav>
+        <a href="{% url 'login' %}" class="login_button">Log In</a>
+    </div>
+    <div class = "hero_intro_banner">
+        <div class = "intro_banner">
+            <h1>
+                IMAGINE A PLACE...
+            </h1>
+            <p>where you can belong to any group/clubs and do collabs and exciting activities together...</p>
+            <div class="intro_banner_links">
+                <a href="#">Download for Windows</a>
+                <a href="#">Open Hubhu in your browser</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

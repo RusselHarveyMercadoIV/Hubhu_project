@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+body, html{
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.site_logo{
+    color: #fff;
+}
+
+.site_logo:hover{
+    text-decoration: none;
+}
+
+.login_button{
+    color: #000;
+    background-color: #fff;
+    padding: 15px 25px 15px 25px;
+    border-radius: 5em;
+    transition: 0.4s;
+}
+
+.login_button:hover{
+    color: #d88d00;
+    text-decoration: none;
+    box-shadow: 2px 2px 2px 2px #2a000017;
+}
+
+.head_nav_container, .head_nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.head_nav_container{
+    align-items: center;
+    padding: 1em 2em 1em 2em;
+    background-color:#d88d00;
+
+}
+
+.head_nav{
+    padding: 1em;
+    width: 23em;
+}
+
+.hero_intro_banner{
+    display: flex;
+    flex-direction: column;
+    height: 55em;
+    background: url("/static/images/hero_intro.png") no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    align-items: center;
+}
+
+.intro_banner{
+    display: flex;
+    flex-direction: column;
+    width: 83em;
+    height: 47em;
+    background: url("/static/images/intro.png") no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    align-items: center;
+    object-fit: cover;
+
+
+}
+
+.hero_intro_banner *{
+    color: #fff;
+}
+
+.hero_intro_banner h1{
+    padding-top:1.2em;
+    font-size: 4em;
+    font-weight: 1000;
+}
+
+.hero_intro_banner p{
+    font-size: 1.3em;;
+}
+
+.intro_banner_links{
+    margin-top: 1.5em;
+    display: flex;
+    justify-content:space-around;
+    width: 45rem;
+}
+
+.intro_banner_links *{
+    color: #000;
+    background-color: #fff;
+    padding: 20px 35px 20px 35px;
+    border-radius: 5em;
+    transition: 0.4s;
+}
+
+.intro_banner_links *:first-child{
+    color: #fff;
+    background-color: #000;
+}
+
+.intro_banner_links *:first-child:hover{
+    color: #d88d00;
+}
+
+.intro_banner_links *:hover{
+    text-decoration: none;
+    box-shadow: 2px 2px 2px 2px #2a000017;
+}
+

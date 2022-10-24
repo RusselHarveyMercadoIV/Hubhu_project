@@ -30,7 +30,7 @@ class LoginView(View):
             user = User.objects.get(pk = username)
             if user.password == password:
                 request.session['user_id'] = user.username
-
+                return redirect(reverse('chatapp:index'))
         except:
             user = None
             print('unsucessful login')
